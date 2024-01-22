@@ -1,1 +1,1 @@
- A weather app using vaniila JavaScript
+ A weather app using vanilla JavaScript
