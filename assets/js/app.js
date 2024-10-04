@@ -334,7 +334,7 @@ export const uptadeWeather =  function (lat,lon) {
                 </span>
                 </div>
                 <p class="label-1">${date.getDate()} ${ module.monthNames[date.getUTCMonth()]}</p>
-                <p class="label-1">    ${module.weekDayNames[date.getUTCDay() + 1]}</p>
+                <p class="label-1">    ${module.weekDayNames[date.getUTCDay() - 1]}</p>
                 `
 
                 forecastSection.querySelector("[data-forecast-list]").appendChild(li)
